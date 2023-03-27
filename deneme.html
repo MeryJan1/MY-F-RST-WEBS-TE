@@ -1,0 +1,184 @@
+<p>
+    Blok Element: Bulunduğu yerin tamamını kaplayan görünmez kutucuk.
+</p>
+<ul>
+    <li>
+        <h1> - <h6> heading
+    </li>
+    <li>
+        <p> paragraflarda
+    </li>
+    <li>
+        <ul></ul> - <ol></ol> sıralamalarda
+    </li>
+    
+    <li>
+        <div>
+            blok oluşturmak için kullandığımız yapı
+            belli yapıları biraraya getirmek istediğimizde kullanıyoruz.
+        </div>
+    </li>
+</ul>
+<hr>
+<p>
+    İnline element:Sadece text kadar yer kaplayan görünmez kutu.
+</p>
+<ul>
+    <li>
+        <button>buton etiketi</button>
+    </li>
+    <li>
+        <a href="">linkler</a>
+    </li>
+    <li>
+        <img src="" alt="resimler">
+    </li>
+    <li>
+        <span>bir yerde bir özellik verip başka özelliklerin değişmemesi için kullanılır</span>
+    </li>
+</ul>
+
+<h2 id="en üst kısım">LİNKLERLE ÇALIŞMA</h2>
+<ul>
+    <li>
+       Başka bir web sitesine git
+        <a href="link" target="_blank">
+            başka web sitesi
+        </a>
+    </li>
+    <li>
+        Başka bir sayfaya git
+        <a href="html/htmlNotları.html">
+            html notları sayfasına git
+        </a>
+    </li>
+    <li>
+        aynı sayfa içinde bir yere ID -> bilgisine git
+    </li>
+    <li>
+        mail at 
+        <a href="mailto:e mail adresi">
+            e mail iletişim
+        </a>
+    </li>
+    <li>
+        telefon et 
+        <a href="tel:  tel nosu">
+            tel iletişim
+        </a>
+    </li>
+    <li>
+        <a href="#Footer(en alt kısım)">
+            en alt kısma git
+        </a>
+    </li>
+</ul>
+
+
+</a>
+
+
+<h2>Görsellerle calisma</h2>
+<!-- h2{Görsellerle calisma}-->
+<!-- <img  
+src="bağlantı linki veya dosyanın bulunduğu yer
+(dosyayı uzantısıyla yazmalısın!!!) 
+(../ üst dizine çıkmamızı sağlar.'../../'istenilen kadar üst dizine çıkabilmemizi sağlar.)" 
+alt="resim görüntülenemezse alternatif bilgilendirici metin"
+width="enine uzunluk belirler"
+height="boyuna uzunluk belirler"
+title="mouse resim üzerindeyken bu text mesajı gözükür."
+border="buradaki sayı kadar pixel kalınlıkta çerceve oluşur."
+align="left ya da right ile resmin sağa ya da sola yaslı çıkmasını sağlar"
+
+GÖRSELE LİNK VERMEK
+<a href="gidilecek link">
+    <img src="resmin kendi linki" alt="alternatif yazı" style="width:42px;height:42px">
+</a>
+
+/>-->
+<!-- width ve height özelliği resmi basık görünmesine neden olabilir -->
+  
+
+<img width="200" height="200" src="https://picsum.photos/200/300" alt="lorem picsum" title="bilgilendirme yazısı" border="5">
+<img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Blade001_Area_Heading-VP5_Desktop_1920x720?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1920&qlt=75&fit=constrain" alt="">
+
+
+<h2>Emmet / Zen Coding </h2>
+<!-- 
+
+  Etiketleri direk yazıp entere basınca otomatik etiket oluşuyor.
+  + kardes oge 
+  > icnde oge 
+  ^ yukari cik ve oge olustur
+  * carp -> p*3
+  lorem -> anlamsiz yazilar
+  lorem4 -> 4 kelimelik anlamsiz yazi
+  . -> class
+  # -> id
+
+-->
+<!-- ul>li*3>lorem2^p*2>lorem4+h3>lorem3 --hatali-- -->
+<!-- ul>li*3>lorem2^^p*2>lorem4^h3>lorem3 -->
+<ul>
+    <li>Lorem, ipsum.</li>
+    <li>Nemo, consequuntur.</li>
+    <li>Facilis, est!</li>
+</ul>
+<p>Lorem ipsum dolor sit.</p>
+<p>Quidem error eaque doloremque.</p>
+<h3>Lorem, ipsum dolor.</h3>
+
+<ul>
+    <li class="className"></li>
+</ul><!-- ul>.className -->
+<div class="deneme"></div><!-- .deneme yazarsak -->
+<h3 class="deneme">Lorem.</h3> <!-- h3.deneme>lorem1 -->
+<h3 id="idolussun">Lorem.</h3> <!-- h3#idolussun>lorem1 -->
+<!-- h3.deneme#idolussun>lorem2 (. veya # yerleri değişebilir)-->
+<h3 class="deneme" id="idolussun">Lorem, ipsum.</h3>
+<h3 id="deneme" class="idolussun">Lorem.</h3><!--yerleri değişirse-->
+
+<!-- Sıralı listelerde <ol type=""> ile değişiklik yapabiliyoruz. -->
+<!-- Roma rakamlarıyla sıralama  -->
+<ol type="I">
+    <li>vdslvmp</li>
+    <li>fsdgs</li>
+    <li>vsdv</li>
+    <li>fgergw4</li>
+    <li>eesfw</li>
+    <li>serwgqea3j</li>
+    <li>gaeht6ja</li>
+    <li>bhsthsrtjna</li>
+    <li>  yteesyeh</li>
+    <li>brsb uwj</li>
+</ol>
+<!-- Harflerle sıralamada 'A' yazarsan büyük harflerle sıralıyor 'a' yazarsan küçük. -->
+<ol type="a">
+    <li>Lorem, ipsum dolor.</li>
+    <li>At, in qui?</li>
+    <li>Nisi, recusandae odit!</li>
+    <li>Rerum, in quasi!</li>
+    <li>Placeat, non deserunt!</li>
+</ol>
+
+<!-- Sırasız listelerde <ul style="list-style-type:  "> ile değişebiliyor. -->
+    <!-- Kare ile sıralama -->
+ <ul style="list-style-type:square">
+    <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+    <li>Quam, obcaecati voluptates. Repellat, vero? Autem, officia consequatur!</li>
+    <li>Vel numquam esse libero eaque quaerat facilis labore!</li>
+    <li>Hic fuga voluptas consequatur nobis expedita nesciunt perferendis!</li>
+    <li>Necessitatibus quibusdam iure similique velit molestias officiis maiores?</li>
+ </ul>
+    <!-- Başında işaret olmadan sıralama yapma -->
+    <ul style="list-style-type:none">
+        <li>Lorem ipsum dolor sit.</li>
+        <li>Dolorem odio quod illo?</li>
+        <li>Nisi asperiores rerum laborum.</li>
+        <li>Delectus explicabo blanditiis numquam!</li>
+        <li>Fuga commodi quas unde!</li>
+    </ul>
+    <h2 id="Footer(en alt kısım)">En alt kısım</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis doloremque aut aperiam consequuntur, sunt recusandae deserunt perspiciatis voluptates nemo obcaecati.</p>
+    <a href="#en üst kısım">en üst kısma git</a>
