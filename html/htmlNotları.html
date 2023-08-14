@@ -83,14 +83,53 @@
 
 (Bu yapiyi hizlica !+Enter ile hizlica oluşturabiliriz.)
 <!DOCTYPE html>(Bu ifade Dökümanin HTML dilinde olduğunu bildiren talimattir.)
-<html lang="en">(lang="en" site içerik dilini belirten etikettir."en"yerine "tr" yazilabilir.)
+<html lang="en">(lang="en" site içerik dilini belirten etikettir."en"yerine "tr" yazilabilir. Arama motorlarında taraycı diliyle ters düşerse çeviri tavsiyesi verir.)
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"> <!--karakter seti tanımlaması-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Taraycı pencerisindeki sekme başlığı</title>
+    <!--
+    <link rel="stylesheet" href="">
+    <style>
+        css burada tanımlanır.Stil işlemleri (arka plan rengi, nesnelerin hizalanması gibi)
+    </style>
+    <script src=""></script>
+-->
 </head>
 <body>
-    
+    <!--
+        <img src="img_la.jpg" alt="LA" style="width:100%">
+    -->
 </body>
 </html>
+
+<!-- Semantic(Anlamlandırılmış) HTML Etiketleri Kullanılmış-->
+<div></div> ve <span></span> gibi elementler semantik değildir ve mevcut içeriği hakkında bilgi vermez.
+
+<header>
+    <h1>Site içeriği hakkında başlığı belirtir.Dökümanda birden fazla kullanılabilir. </h1>
+</header>
+
+<nav><!--Büyük sayfalar için ortaya çıkmış navigasyon, bir dizi gezinme bağlantısı bağlantıları.-->
+    <ul>
+        <li><a href="gideceği-konum">isim</a></li>
+        <li><a href="gideceği-yer">konum adı</a></li>
+    </ul>
+</nav>
+
+<main>Ana sayfa içeriğini belirtir ve benzersiz olmalıdır.</main>
+
+<article>bağımsız içeriği belirtir.</article>
+
+<aside>yerleştirildiği içeriğin dışında bazı içerikleri tanımlar</aside>
+
+<details>Ek ayrıntıları belirtir.</details>
+
+<figure>Genellikle bir görsel, diyagram, fotoğraf, kod parçacığı veya tablo gibi bağımsız bir içeriği belirtir.</figure>
+
+<section>Belgenin bölümünü temsil eder.</section>
+
+<summary><!--<details> ögesi için başlık belirtir--></summary>
+
+<footer>Bir belge veya bölümün alt bilgisini tanımlar.</footer>
